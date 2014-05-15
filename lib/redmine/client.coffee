@@ -6,5 +6,6 @@ class Client
         api = new ApiIssue = require('../../lib/redmine/api/issues')
 
     api.options opts
+    api.init()
     api
 module.exports = Client
